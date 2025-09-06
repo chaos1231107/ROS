@@ -1,4 +1,4 @@
 # ROS
 
-```` ```bash ```` :
+```bash
 ls -al
