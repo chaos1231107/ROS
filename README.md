@@ -16,8 +16,23 @@
 
 ## 워크 스페이스 생성 및 빌드
 ```bash
-$ mkdir -p ~/${work_space_name}/src # mkdir -p ~/ros_ws/src
-$ cd ~/${work_space_name} # cd ~/ros_ws
-$ catkin_make
-$ ls # build, devel폴더 확인
+mkdir -p ~/${work_space_name}/src # mkdir -p ~/ros_ws/src
+cd ~/${work_space_name} # cd ~/ros_ws
+catkin_make
+ls # build, devel폴더 확인
+```
+
+## ./bashrc에 빌드 경로 추가
+```bash
+nano ~/.bashrc
+
+alias cm='cd ~/ros_ws&& catkin_make'
+alias cs='cd ~/ros_ws/src'
+source /opt/ros/melodic/setup.bash
+source ~/ros_ws/devel/setup.bash
+export ROS_MASTER_URI=http://localhost:11311
+export ROS_HOSTNAME=localhost
+
+source ~/.bashrc
+
 
