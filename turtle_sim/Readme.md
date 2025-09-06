@@ -21,4 +21,13 @@ rostopic list
 rostopic list -v
 ```
 
+### 패키지 생성
+
+```bash
+cd ~/ros_ws/src
+catkin_create_pkg init_pkg std_msgs rospy
+cd ~/ros_ws
+catkin_make
+rospack list | grep init
+```
 
