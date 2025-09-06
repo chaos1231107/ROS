@@ -1,7 +1,7 @@
 ## turtle sim 예제 실행
 
 ### roscore과 rosrun을 통한 실행
-- 마스터의 실행
+
 ```bash
 roscore
 # turtlesim node 실행
