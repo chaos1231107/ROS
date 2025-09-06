@@ -46,3 +46,5 @@ rosrun init_pkg talker.py
 rosrun init_pkg listener.py
 rqt_graph
 ```
+img width="646" height="417" alt="turtle_node" src="https://github.com/user-attachments/assets/f3081da9-077f-426f-9f7f-a6105efa8d70" />
+
