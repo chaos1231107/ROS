@@ -12,3 +12,11 @@ rosrun turtlesim turtle_teleop_key
 # 노드간 통신 시각화
 rqt_graph
 ```
+```bash
+# 노드 목록 확인
+rosnode list
+# 토픽 목록 확인
+rostopic list
+# 토픽 목록 자세히 확인
+rostopic list -v
+
