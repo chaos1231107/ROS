@@ -1,4 +1,3 @@
 # ROS
 
-```bash
-ls -al
+
