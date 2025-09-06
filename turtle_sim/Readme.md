@@ -19,4 +19,6 @@ rosnode list
 rostopic list
 # 토픽 목록 자세히 확인
 rostopic list -v
+```
+
 
