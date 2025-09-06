@@ -3,6 +3,7 @@
 ### roscore과 rosrun을 통한 실행
 
 ```bash
+# 마스터 실행
 roscore
 # turtlesim node 실행
 rosrun turtlesim turtlesim_node
