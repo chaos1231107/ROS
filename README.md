@@ -16,4 +16,7 @@
 
 ## 워크 스페이서 생성
 ```bash
-mkdir -p ~/${work_space_name}/src #mkdir -p ~/ros_ws/src
+mkdir -p ~/${work_space_name}/src # mkdir -p ~/ros_ws/src
+cd ~/${work_space_name} # cd ~/ros_ws
+catkin_make
+ls # build, devel폴더 확인
