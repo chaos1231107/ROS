@@ -28,7 +28,7 @@ nano ~/.bashrc
 
 alias cm='cd ~/ros_ws&& catkin_make'
 alias cs='cd ~/ros_ws/src'
-source /opt/ros/melodic/setup.bash
+source /opt/ros/noetic/setup.bash
 source ~/ros_ws/devel/setup.bash
 export ROS_MASTER_URI=http://localhost:11311
 export ROS_HOSTNAME=localhost
