@@ -31,3 +31,10 @@ catkin_make
 rospack list | grep init
 ```
 
+### rosrun을 통한 파이썬 코드 실행 -> ~/ros_ws/src/init_pkg/src 폴더 하위에 talker.py, listner.py 생성
+```bash
+chmod 776 talker.py
+chmod 776 listener.py
+ls -al talker.py
+ls -al listener.py
+```
