@@ -25,7 +25,8 @@ rostopic list -v
 
 ```bash
 cd ~/ros_ws/src
-catkin_create_pkg init_pkg std_msgs rospy
+# init_pkg라는 이름의 패키지를 만들고 std_msgs와 rospy를 담는다는 의미
+catkin_create_pkg init_pkg std_msgs rospy 
 cd ~/ros_ws
 catkin_make
 rospack list | grep init
@@ -37,4 +38,11 @@ chmod 776 talker.py
 chmod 776 listener.py
 ls -al talker.py
 ls -al listener.py
+```
+```bash
+roscore
+rosrun turtlesim turtlesim_node
+rosrun init_pkg talker.py
+rosrun init_pkg listener.py
+rqt_graph
 ```
