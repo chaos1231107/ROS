@@ -22,7 +22,7 @@ catkin_make
 ls # build, devel폴더 확인
 ```
 
-## ./bashrc에 빌드 경로 추가
+## allias 설정 및 빌드 경로 추가
 ```bash
 nano ~/.bashrc
 
