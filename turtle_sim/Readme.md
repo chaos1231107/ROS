@@ -46,6 +46,18 @@ rosrun init_pkg talker.py
 rosrun init_pkg listener.py
 rqt_graph
 ```
-
 <img width="646" height="417" alt="turtle_node" src="https://github.com/user-attachments/assets/3fab5524-2fed-4ce9-8e06-932991453f46" />
+
+### roslaunch를 통한 실행 -> 노드간 통신에 필요한 노드를 launch파일에 저장하여 roscore을 실행하지 않고도 프로그램 실행 가능
+```bash
+cd ~/ros_ws/src/init_pkg
+mkdir launch
+# luanch 파일 작성
+code talk-listen.launch
+roslaunch init_pkg talk-listen.launch
+```
+<img width="721" height="433" alt="image" src="https://github.com/user-attachments/assets/842403a7-38f8-4259-aba5-df31a0622f1d" />
+<img width="577" height="355" alt="image" src="https://github.com/user-attachments/assets/f189d1e4-f5c8-4ec3-9420-33952d80b455" />
+
+
 
