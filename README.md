@@ -15,6 +15,6 @@
 - package(패키지) : 하나 이상의 노드와 노드 실행을 위한 정보들은 묶어놓은 것
 
 ## 워크 스페이스 생성
-'''bash
+' ' 'bash
 
 mkdir -p ~/${work_space_name}/src #mkdir -p ~/ros_ws/src
